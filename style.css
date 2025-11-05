@@ -1,0 +1,77 @@
+style.css
+header {
+     font-family: "Impact";
+     font-syle: bold;
+     font-variable: all-caps;
+     font-size: 128px;
+     font-color: royalblue;
+     text-align:center;
+     background-color: lightseagreen;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+ul.topnav li {
+    float: left;
+}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover {
+    background-color:darkslateblue;
+}
+
+h1 {
+    font-family: "consolas";
+    font-variant: normal;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p.whatpop {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    font-family: "consolas";
+    font-variant: normal;
+    outline-style: double;
+    padding: 10px;
+    outline-color: gray ;
+    outline-width: medium;
+}
+
+h2 {
+    margin: 20px 30px;
+    padding: 20px 50px;
+    background-color: lightcyan;
+    font-variant: normal;
+    font-family: "consolas";
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Consolas";
+    font-size: 16px;
+    font-variant: normal;
+    color: black;
+    text-align: center;
+    background-color: lightseagreen;
+}
+ul.history li {
+    list-style-position: inside;
+    padding-bottom: 50px;
+    background-color: lightseagreen;
+}
