@@ -1,10 +1,12 @@
+/*
 style.css
+*/
 header {
      font-family: "Impact";
-     font-syle: bold;
+     font-style: bold;
      font-variable: all-caps;
      font-size: 128px;
-     font-color: royalblue;
+     color: royalblue;
      text-align:center;
      background-color: lightseagreen;
 }
