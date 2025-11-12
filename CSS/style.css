@@ -77,3 +77,17 @@ ul.history li {
     padding-bottom: 50px;
     background-color: lightseagreen;
 }
+table.chart {
+    border: 2px solid;
+    padding: 10px;
+    width: 75%;
+    text-align: left;
+}
+th.chart {
+    height: 20px;
+    background-color: mediumseagreen;
+    color: white;
+}
+tr.chart:th-child(odd){
+    background-color: #f2f2f2;
+}
