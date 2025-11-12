@@ -92,6 +92,7 @@ ul.history li {
 
 
 
+
 @keyframes tonext {
   75% {
     left: 0;
@@ -319,4 +320,19 @@ ol, li {
 
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+=======
+table.chart {
+    border: 2px solid;
+    padding: 10px;
+    width: 75%;
+    text-align: left;
+}
+th.chart {
+    height: 20px;
+    background-color: mediumseagreen;
+    color: white;
+}
+tr.chart:th-child(odd){
+    background-color: #f2f2f2;
+>>>>>>> c780bdf8ff377c555a30e6388dc3e406b83efb22
 }
