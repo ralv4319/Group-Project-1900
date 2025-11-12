@@ -4,7 +4,7 @@ style.css
 header {
      font-family: "Impact";
      font-style: bold;
-     font-variable: all-caps;
+    font-variant: all-caps;
      font-size: 128px;
      color: royalblue;
      text-align:center;
@@ -326,13 +326,30 @@ table.chart {
     padding: 10px;
     width: 75%;
     text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
-th.chart {
+.chart th {
     height: 20px;
-    background-color: mediumseagreen;
+    background-color: lightseagreen;
     color: white;
+    padding: 20px;
 }
+<<<<<<< HEAD
 tr.chart:th-child(odd){
     background-color: #f2f2f2;
+
+
+.chart tr:nth-child(odd){
+    background-color: #f2f2f2b1;
+}
+.chart tr {
+    padding: 20px;
+    height: 45px;
+}
+.chart h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
 
 }
