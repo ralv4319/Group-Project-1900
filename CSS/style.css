@@ -13,7 +13,7 @@ header {
 header.today {
 	font-family: "consolas";
      font-style: bold;
-     font-variable: all-caps;
+     font-variant: all-caps;
      font-size: 128px;
      color: royalblue;
      text-align:center;
@@ -137,15 +137,15 @@ ul.history li {
     scroll-snap-align: center;
   }
 }
-
+/*
 body {
   max-width: 37.5rem;
   margin: 0 auto;
   padding: 0 1.25rem;
   font-family: 'Lato', sans-serif;
 }
-
-* {
+this was getting in the way*/
+ {
   box-sizing: border-box;
   scrollbar-color: transparent transparent; /* thumb and track color */
   scrollbar-width: 0px;
@@ -335,6 +335,8 @@ table.chart {
     color: white;
     padding: 20px;
 }
+
+
 .chart tr:nth-child(odd){
     background-color: #f2f2f2b1;
 }
