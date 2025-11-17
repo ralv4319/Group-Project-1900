@@ -352,9 +352,14 @@ table.centerTable {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
 }
+.chart h2 {
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 100px;
+}
 ol.popularity{
-    margin: 20px 30px;
+    margin: 20px 400px;
     padding: 20px 50px;
     background-color: powderblue;
-}
+    
 }
