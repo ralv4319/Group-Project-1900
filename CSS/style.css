@@ -61,7 +61,7 @@ p.whatpop {
     outline-width: medium;
 }
 
-h2 {
+h2.artists {
     margin: 20px 30px;
     padding: 20px 50px;
     background-color: lightcyan;
@@ -367,4 +367,18 @@ ol.popularity{
 }
 p {
   text-align: center;
+}
+.carousel__snapper h1 {
+  font-size: 48px;
+  font-family: 'Courier New', Courier, monospace;
+}
+div.carousel__snapper {
+  text-align: center;
+  font-size: 24px;
+  font-family:'Courier New', Courier, monospace;
+}
+.carousel__snapper h2 {
+  font-size: 32px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
 }
