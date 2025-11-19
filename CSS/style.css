@@ -61,7 +61,7 @@ p.whatpop {
     outline-width: medium;
 }
 
-h2 {
+h2.artists {
     margin: 20px 30px;
     padding: 20px 50px;
     background-color: lightcyan;
@@ -379,5 +379,4 @@ div.carousel__snapper {
   font-size: 32px;
   font-family: 'Courier New', Courier, monospace;
   text-decoration: underline;
-  background-color: lightseagreen;
 }
