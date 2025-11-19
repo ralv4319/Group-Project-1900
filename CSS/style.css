@@ -137,14 +137,15 @@ ul.history li {
     scroll-snap-align: center;
   }
 }
-/*
-body {
+
+.carousel {
   max-width: 37.5rem;
+  height: 1em;
   margin: 0 auto;
   padding: 0 1.25rem;
   font-family: 'Lato', sans-serif;
 }
-this was getting in the way*/
+
  {
   box-sizing: border-box;
   scrollbar-color: transparent transparent; /* thumb and track color */
@@ -287,6 +288,7 @@ this was getting in the way*/
   border-radius: 50%;
   font-size: 0;
   outline: 0;
+  z-index: 1;
 }
 
 .carousel::before,
