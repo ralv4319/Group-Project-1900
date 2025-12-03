@@ -102,9 +102,9 @@ h1.carousel {
   text-align: center;
   font-size: 1.7rem;
 }
-ul.interact {
+ ul.interact {
   width: 100vw;
-  height: 750px;
+  height: 800px;
   padding: 20px;
   display: flex;
   gap: 4vw;
@@ -128,7 +128,7 @@ ul.interact {
 li#carousel {
   scroll-snap-align: center;
 }
-.interact ul::scroll-button(*) {
+ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
@@ -137,20 +137,20 @@ li#carousel {
   cursor: pointer;
 }
 
-.interact ul::scroll-button(*):hover,
-.interact ul::scroll-button(*):focus {
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
   opacity: 1;
 }
 
-.interact ul::scroll-button(*):active {
+ul::scroll-button(*):active {
   translate: 1px 1px;
 }
 
-.interact ul::scroll-button(*):disabled {
+ul::scroll-button(*):disabled {
   opacity: 0.2;
   cursor: unset;
 }
-.interact ul::scroll-button(left) {
+#interactive ul::scroll-button(left) {
   content: "\2B9C";
   font-size:50px
   
@@ -158,31 +158,31 @@ li#carousel {
 
 /*https://unicode-explorer.com/list/arrows this is for arrows*/
 
-.interact ul::scroll-button(right) {
+#interactive ul::scroll-button(right) {
   content: "\2B9E";
   font-size: 50px;
 }
-ul.interact {
+ul {
   anchor-name: --my-carousel;
 }
 
-.interact ul::scroll-button(*) {
+ul::scroll-button(*) {
   position: absolute;
   position-anchor: --my-carousel;
 }
-.interact ul::scroll-button(left) {
+ul::scroll-button(left) {
   right: calc(anchor(left) - 70px);
   bottom: calc(anchor(top) + 13px);
 }
 
-.interact ul::scroll-button(right) {
+ul::scroll-button(right) {
   left: calc(anchor(right) - 70px);
   bottom: calc(anchor(top) + 13px);
 }
-ul.interact {
+ul {
   scroll-marker-group: after;
 }
-.interact ul::scroll-marker-group {
+ul::scroll-marker-group {
   position: absolute;
   position-anchor: --my-carousel;
   top: calc(anchor(bottom) - 70px);
@@ -203,31 +203,7 @@ ul.interact {
 #carousel li::scroll-marker:target-current {
   background-color: black;
 }
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
-.left {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
-.up {
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-}
-
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
+webkit-transform: rotate(45deg);
 }
 
 
