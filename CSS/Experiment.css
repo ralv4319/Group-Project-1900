@@ -60,11 +60,16 @@ ul::scroll-button(*):disabled {
   cursor: unset;
 }
 ul::scroll-button(left) {
-  content: "\21E6";
+  content: "\2B9C";
+  font-size:50px
+  
 }
+
 /*https://unicode-explorer.com/list/arrows this is for arrows*/
+
 ul::scroll-button(right) {
-  content: "►";
+  content: "\2B9E";
+  font-size: 50px;
 }
 ul {
   anchor-name: --my-carousel;
