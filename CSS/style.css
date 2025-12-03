@@ -382,3 +382,14 @@ div.carousel__snapper {
   font-family: 'Courier New', Courier, monospace;
   text-decoration: underline;
 }
+h1.where {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Consolas';
+}
+h2.logos {
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  text-decoration: underline;
+}
