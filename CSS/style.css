@@ -278,19 +278,20 @@ ol.popularity{
 p {
   text-align: center;
 }
-.carousel__snapper h1 {
-  font-size: 48px;
+h1.carousel {
+  font-size: 36px;
   font-family: 'Courier New', Courier, monospace;
 }
-div.carousel__snapper {
+li#carousel {
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
   font-family:'Courier New', Courier, monospace;
 }
-.carousel__snapper h2 {
+h2.carousel {
   font-size: 32px;
   font-family: 'Courier New', Courier, monospace;
   text-decoration: underline;
+  text-align: center;
 }
 h1.where {
   font-size: 32px;
