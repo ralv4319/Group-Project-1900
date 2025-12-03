@@ -102,7 +102,7 @@ h1.carousel {
   text-align: center;
   font-size: 1.7rem;
 }
-ul.carousel {
+ul.interact {
   width: 100vw;
   height: 750px;
   padding: 20px;
@@ -121,14 +121,14 @@ li#carousel {
 #carousel li:nth-child(even) {
   background-color: cyan; 
 }
-ul.carousel {
+ul.interact {
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
 }
 li#carousel {
   scroll-snap-align: center;
 }
-.carousel ul::scroll-button(*) {
+.interact ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
@@ -137,20 +137,20 @@ li#carousel {
   cursor: pointer;
 }
 
-.carousel ul::scroll-button(*):hover,
-.carousel ul::scroll-button(*):focus {
+.interact ul::scroll-button(*):hover,
+.interact ul::scroll-button(*):focus {
   opacity: 1;
 }
 
-.carousel ul::scroll-button(*):active {
+.interact ul::scroll-button(*):active {
   translate: 1px 1px;
 }
 
-.carousel ul::scroll-button(*):disabled {
+.interact ul::scroll-button(*):disabled {
   opacity: 0.2;
   cursor: unset;
 }
-.carousel ul::scroll-button(left) {
+.interact ul::scroll-button(left) {
   content: "\2B9C";
   font-size:50px
   
@@ -158,31 +158,31 @@ li#carousel {
 
 /*https://unicode-explorer.com/list/arrows this is for arrows*/
 
-.carousel ul::scroll-button(right) {
+.interact ul::scroll-button(right) {
   content: "\2B9E";
   font-size: 50px;
 }
-ul.carousel {
+ul.interact {
   anchor-name: --my-carousel;
 }
 
-.carousel ul::scroll-button(*) {
+.interact ul::scroll-button(*) {
   position: absolute;
   position-anchor: --my-carousel;
 }
-.carousel ul::scroll-button(left) {
+.interact ul::scroll-button(left) {
   right: calc(anchor(left) - 70px);
   bottom: calc(anchor(top) + 13px);
 }
 
-.carousel ul::scroll-button(right) {
+.interact ul::scroll-button(right) {
   left: calc(anchor(right) - 70px);
   bottom: calc(anchor(top) + 13px);
 }
-ul.carousel {
+ul.interact {
   scroll-marker-group: after;
 }
-.carousel ul::scroll-marker-group {
+.interact ul::scroll-marker-group {
   position: absolute;
   position-anchor: --my-carousel;
   top: calc(anchor(bottom) - 70px);
